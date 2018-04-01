@@ -1,0 +1,11 @@
+#!/bin/bash
+
+
+
+read -p "Hi, What is your name: " customer
+if [ $customer == "Rahmatjon" ]
+then
+	echo "Hi $customer ...how are you today?"
+else 
+	echo "Ooops, we never met before!!!"
+fi  
